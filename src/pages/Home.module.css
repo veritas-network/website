@@ -1,0 +1,23 @@
+.home-root-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.feed-container {
+  width: 600px;
+  height: 100%;
+  background-color: white;
+  border-left-width: 1px;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-color: rgb(239, 243, 244);
+  border-style: solid;
+  outline-style: none;
+}
