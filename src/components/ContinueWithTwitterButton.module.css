@@ -1,0 +1,20 @@
+.root-container {
+  width: fit-content;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-radius: 20px;
+  background-color: rgb(29, 155, 240);
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-logo {
+  color: white;
+  margin-right: 10px;
+}

@@ -1,6 +1,6 @@
 {
   "name": "veritas-network-website",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,11 +14,14 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "lightweight-charts": "^4.0.1",
     "mobx": "^6.9.0",
     "mobx-react-lite": "^3.4.3",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-type-animation": "^3.0.1",
     "typescript": "5.0.3"
   }
 }
