@@ -3,22 +3,16 @@
   padding-top: 15px;
 
   width: 100%;
-  height: 300px;
+  height: fit-content;
 
   display: flex;
   flex-direction: column;
-
-  border-left-width: 0px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 1px;
-  border-color: rgb(239, 243, 244);
-  border-style: solid;
-  outline-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.top {
-  width: 100%;
+.header {
+  width: 800px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -26,30 +20,31 @@
   align-items: center;
 }
 
-.top-logo {
+.logo {
   margin-left: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.top-get-extension {
+.get-extension {
   margin-right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.top-get-extension-text {
+.get-extension-text {
   margin-right: 5px;
 }
-.top-get-extension-logo {
+.get-extension-logo {
 }
 
-.middle {
-  width: 100%;
-  height: 100%;
+.body {
+  width: 1000px;
+  height: 150px;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
@@ -60,14 +55,13 @@
   background-color: red;
 }
 .continue-with-twitter-container {
-  position: absolute;
-  right: 50px;
-  bottom: 25px;
-
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  z-index: 1;
 }
 .continue-with-twitter-button {
   margin-bottom: 10px;

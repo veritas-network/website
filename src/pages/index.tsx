@@ -17,8 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles["home-root-container"]}>
+        <HomeFeedHeader />
         <div className={styles["feed-container"]}>
-          <HomeFeedHeader />
           <TweetContainer />
           <TweetContainer />
           <TweetContainer />

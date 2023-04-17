@@ -26,7 +26,7 @@ export const Chart = (props: any) => {
         textColor,
       },
       //   width: chartContainerRef.current.clientWidth,
-      width: 600,
+      width: 800,
       height: 200,
     });
     chart.timeScale().fitContent();
@@ -37,6 +37,22 @@ export const Chart = (props: any) => {
       bottomColor: areaBottomColor,
     });
     newSeries.setData(data);
+    const markers = [];
+    newSeries.setMarkers(markers);
+    chart.applyOptions({
+      watermark: {
+        visible: true,
+        fontSize: 15,
+        horzAlign: "center",
+        vertAlign: "top",
+        color: "black",
+        text: "Veritas Network",
+      },
+    });
+    chart.timeScale().applyOptions({ barSpacing: 100 });
+    chart
+      .priceScale("right")
+      .applyOptions({ scaleMargins: { bottom: 0.1, top: 0.2 } });
 
     window.addEventListener("resize", handleResize);
 
